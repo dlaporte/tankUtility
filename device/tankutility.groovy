@@ -7,6 +7,7 @@ metadata {
 		capability "Sensor"
 		capability "Power Meter"
 		capability "Temperature Measurement"
+		capability "Relative Humidity Measurement"
 
 		attribute "lastreading", "date"
 		attribute "capacity", "number"
@@ -15,6 +16,7 @@ metadata {
 		attribute "used", "string"
 		attribute "estimatedfill", "string"
 		attribute 'avgconsumption', "number"
+		attribute "humidity", "number"
 	}
 
 /*
