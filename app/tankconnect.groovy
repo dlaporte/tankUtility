@@ -459,6 +459,7 @@ void pollChildren(Boolean updateData=true){
 				['temperature': temperature],
 				['level': level],
 				['energy': level],
+				['humidity': level],
 				['capacity': capacity],
 				['lastreading': lastReadTime],
 				['gallons': gal],
